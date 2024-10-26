@@ -1,0 +1,23 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.final_app">  <!-- Updated package name -->
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:label="FinalApp"
+        android:icon="@mipmap/ic_launcher">
+        
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="com.example.final_app" android:host="oauth2redirect"/>
+            </intent-filter>
+        </activity>
+        
+    </application>
+
+</manifest>
