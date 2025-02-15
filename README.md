@@ -1,6 +1,6 @@
 # FREE. - Flutter Mobile Application
 
-A proof-of-concept app  based on the case study given to us in the SA&D Block. The concept behind this application is to create a seamless, integrated, social gathering scheduling platform designed for busy individuals i.e. family-oriented working professionals. This application, developed using the flutter framework for frontend development and Firebase for backend services,the app integrates with both the Google Calendar API and the Google People API to synchronise calendars and manage events with participants from your contacts.
+A proof-of-concept app  based on the case study given to us in the SA&D Block in my honours program. The concept behind this application is to create a seamless, integrated, social gathering scheduling platform designed for busy individuals i.e. family-oriented working professionals. This application, developed using the flutter framework for frontend development and Firebase for backend services,the app integrates with both the Google Calendar API and the Google People API to synchronise calendars and manage events with participants from your contacts.
 
 ## Getting Started: 
 
